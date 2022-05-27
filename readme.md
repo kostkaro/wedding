@@ -1,2 +1,1 @@
-This will be filled soon
-sooner!
+Homepage for wedding purpose
