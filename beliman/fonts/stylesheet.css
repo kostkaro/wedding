@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Brightglow';
+    src: url('Brightglow-Regular.eot');
+    src: url('Brightglow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Brightglow-Regular.woff2') format('woff2'),
+        url('Brightglow-Regular.woff') format('woff'),
+        url('Brightglow-Regular.ttf') format('truetype'),
+        url('Brightglow-Regular.svg#Brightglow-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Celesse';
+    src: url('Celesse-Regular.eot');
+    src: url('Celesse-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Celesse-Regular.woff2') format('woff2'),
+        url('Celesse-Regular.woff') format('woff'),
+        url('Celesse-Regular.ttf') format('truetype'),
+        url('Celesse-Regular.svg#Celesse-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Sauvage';
+    src: url('Sauvage-Regular.eot');
+    src: url('Sauvage-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Sauvage-Regular.woff2') format('woff2'),
+        url('Sauvage-Regular.woff') format('woff'),
+        url('Sauvage-Regular.ttf') format('truetype'),
+        url('Sauvage-Regular.svg#Sauvage-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Chatoyer';
+    src: url('Chatoyer-Regular.eot');
+    src: url('Chatoyer-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Chatoyer-Regular.woff2') format('woff2'),
+        url('Chatoyer-Regular.woff') format('woff'),
+        url('Chatoyer-Regular.ttf') format('truetype'),
+        url('Chatoyer-Regular.svg#Chatoyer-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Apricosa';
+    src: url('Apricosa-Regular.eot');
+    src: url('Apricosa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Apricosa-Regular.woff2') format('woff2'),
+        url('Apricosa-Regular.woff') format('woff'),
+        url('Apricosa-Regular.ttf') format('truetype'),
+        url('Apricosa-Regular.svg#Apricosa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Astralaga';
+    src: url('Astralaga-Bold.eot');
+    src: url('Astralaga-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Astralaga-Bold.woff2') format('woff2'),
+        url('Astralaga-Bold.woff') format('woff'),
+        url('Astralaga-Bold.ttf') format('truetype'),
+        url('Astralaga-Bold.svg#Astralaga-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Palm Honey';
+    src: url('PalmHoney.eot');
+    src: url('PalmHoney.eot?#iefix') format('embedded-opentype'),
+        url('PalmHoney.woff2') format('woff2'),
+        url('PalmHoney.woff') format('woff'),
+        url('PalmHoney.ttf') format('truetype'),
+        url('PalmHoney.svg#PalmHoney') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-BoldItalic.eot');
+    src: url('FuturaBT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldItalic.woff2') format('woff2'),
+        url('FuturaBT-BoldItalic.woff') format('woff'),
+        url('FuturaBT-BoldItalic.ttf') format('truetype'),
+        url('FuturaBT-BoldItalic.svg#FuturaBT-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('FuturaBT-BoldCondensed.eot');
+    src: url('FuturaBT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldCondensed.woff2') format('woff2'),
+        url('FuturaBT-BoldCondensed.woff') format('woff'),
+        url('FuturaBT-BoldCondensed.ttf') format('truetype'),
+        url('FuturaBT-BoldCondensed.svg#FuturaBT-BoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura XBlk BT';
+    src: url('FuturaBT-ExtraBlack.eot');
+    src: url('FuturaBT-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlack.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlack.woff') format('woff'),
+        url('FuturaBT-ExtraBlack.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlack.svg#FuturaBT-ExtraBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('FuturaBT-Light.eot');
+    src: url('FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Light.woff2') format('woff2'),
+        url('FuturaBT-Light.woff') format('woff'),
+        url('FuturaBT-Light.ttf') format('truetype'),
+        url('FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-Book.eot');
+    src: url('FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Book.woff2') format('woff2'),
+        url('FuturaBT-Book.woff') format('woff'),
+        url('FuturaBT-Book.ttf') format('truetype'),
+        url('FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura MdCn BT';
+    src: url('FuturaBT-MediumCondensed.eot');
+    src: url('FuturaBT-MediumCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-MediumCondensed.woff2') format('woff2'),
+        url('FuturaBT-MediumCondensed.woff') format('woff'),
+        url('FuturaBT-MediumCondensed.ttf') format('truetype'),
+        url('FuturaBT-MediumCondensed.svg#FuturaBT-MediumCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('FuturaBT-LightCondensed.eot');
+    src: url('FuturaBT-LightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-LightCondensed.woff2') format('woff2'),
+        url('FuturaBT-LightCondensed.woff') format('woff'),
+        url('FuturaBT-LightCondensed.ttf') format('truetype'),
+        url('FuturaBT-LightCondensed.svg#FuturaBT-LightCondensed') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-BookItalic.eot');
+    src: url('FuturaBT-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BookItalic.woff2') format('woff2'),
+        url('FuturaBT-BookItalic.woff') format('woff'),
+        url('FuturaBT-BookItalic.ttf') format('truetype'),
+        url('FuturaBT-BookItalic.svg#FuturaBT-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('FuturaBT-Heavy.eot');
+    src: url('FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Heavy.woff2') format('woff2'),
+        url('FuturaBT-Heavy.woff') format('woff'),
+        url('FuturaBT-Heavy.ttf') format('truetype'),
+        url('FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('FuturaBT-HeavyItalic.eot');
+    src: url('FuturaBT-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-HeavyItalic.woff2') format('woff2'),
+        url('FuturaBT-HeavyItalic.woff') format('woff'),
+        url('FuturaBT-HeavyItalic.ttf') format('truetype'),
+        url('FuturaBT-HeavyItalic.svg#FuturaBT-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: block;
+}
+
