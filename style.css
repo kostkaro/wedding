@@ -24,9 +24,26 @@ h2 {
     color: #202D52;
 }
 h3{
-    font-family: 'Futura Bk BT';
+    font-family: 'Puremalone';
     font-size: 22px;
     margin-bottom: 0;
+    font-weight: 100 ;
+}
+h4{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inter {
+    font-family: 'Inter'!important;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.puremalone {
+    font-family: 'Puremalone'!important;
+    font-weight: 300;
 }
 
 .palmhoney {
@@ -36,7 +53,7 @@ h3{
 }
 
 p {
-    font-family: 'Futura Bk BT';
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -47,8 +64,8 @@ div {
 
 a {
     text-decoration: none;
-    color:black;
-    font-family: 'Futura Bk BT';
+    color:#262626;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
 }
 a:hover{
@@ -74,11 +91,11 @@ a:hover{
 
 .divider {
     width: 100%;
-    padding-top:150px;
+    padding-top:80px;
 }
 .intro img{
-    padding-top: 50px;
-    margin: 0 20px;
+    text-align: center;
+    width: 100%;
 }
 .invert{
     margin: 0;
@@ -92,11 +109,15 @@ a:hover{
     margin-bottom: 10px;
 }
 
-
+.info {
+    max-width: 640px;
+    margin: auto;
+}
 .info p{
     line-height: 30px;
     color: #202D52;
-    font-size: 22px;
+    font-size: 16px;
+    font-family: 'Puremalone';
 }
 
 .hotels-section p{
@@ -107,10 +128,19 @@ a:hover{
 
 
 .info a{
-    text-transform: uppercase;
     text-decoration: underline;
-    color: #202D52;
-    font-size: 22px;
+    color: #D2A8E5;
+    font-size: 16px;
+}
+
+.contact a{
+    text-decoration: underline;
+    color: #D2A8E5;
+    font-size: 16px;
+}
+
+.contact a:hover{
+    color:#7E8BA4;
 }
 
 .info a:hover{
@@ -120,6 +150,11 @@ a:hover{
     height: 350px;
     width: 300px;
     margin: 0 50px;
+}
+
+.footer-image{
+    width:100%;
+    margin-bottom: 100px;
 }
 
 .hotels-intro{
@@ -208,16 +243,23 @@ a:hover{
     margin-top: 100px;
 }
 
+.faq{
+    max-width: 640px;
+    margin: auto;
+}
+
 /***********NAVIGATION***********/
 
 .navigation{
-    height: 70px;
+    position: relative;
+    top: 30px;
+    height: 0px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'FuturaBT-Book';
-    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 16px;
     
@@ -226,7 +268,7 @@ a:hover{
     margin-left: 20px;
     font-size: 20px;
     text-decoration: none;
-    color:#F86A53;
+    color:#262626;
 }
 .navlinks{
     display: flex;
@@ -234,7 +276,7 @@ a:hover{
     margin-right: 20px;
 }
 .navlinks .active a{
-    color:#F86A53;
+    color:#262626;
     opacity: 0.5;
 }
 .navitems{
@@ -243,11 +285,11 @@ a:hover{
 }
 .navlinks a{
     text-decoration: none;
-    color:#F86A53;
+    color:#262626;
     transition: all ease 0.25s;
 }
 .navlinks a:hover{
-    color:#F86A53;
+    color:#262626;
     opacity: 0.5;
     transition: all ease 0.25s;
 }

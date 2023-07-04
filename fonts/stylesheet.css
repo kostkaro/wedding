@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Puremalone';
+    src: url('puremalone.ttf');
+    src: url('puremalone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
     font-family: 'Brightglow';
     src: url('Brightglow-Regular.eot');
     src: url('Brightglow-Regular.eot?#iefix') format('embedded-opentype'),
