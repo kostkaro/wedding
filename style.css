@@ -254,9 +254,8 @@ a:hover{
 /***********NAVIGATION***********/
 
 .navigation{
-    position: relative;
-    top: 30px;
-    height: 0px;
+    position: absolute;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -321,5 +320,9 @@ a:hover{
     }
     .info{
         margin-top: 20px;
+    }
+    .navigation{
+        background-color: rgba(242, 239, 234, 0.3);
+        
     }
   }
