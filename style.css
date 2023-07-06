@@ -97,6 +97,7 @@ a:hover{
     text-align: center;
     width: 100%;
 }
+
 .invert{
     margin: 0;
     padding-top:50px;
@@ -112,6 +113,7 @@ a:hover{
 .info {
     max-width: 640px;
     margin: auto;
+    padding: 0 10%;
 }
 .info p{
     line-height: 30px;
@@ -268,7 +270,7 @@ a:hover{
     margin-left: 20px;
     font-size: 20px;
     text-decoration: none;
-    color:#262626;
+    color:#D2A8E5;
 }
 .navlinks{
     display: flex;
@@ -276,7 +278,7 @@ a:hover{
     margin-right: 20px;
 }
 .navlinks .active a{
-    color:#262626;
+    color:#D2A8E5;
     opacity: 0.5;
 }
 .navitems{
@@ -289,7 +291,24 @@ a:hover{
     transition: all ease 0.25s;
 }
 .navlinks a:hover{
-    color:#262626;
+    color:#ed58d0;
     opacity: 0.5;
     transition: all ease 0.25s;
 }
+
+.large-screen{
+    display: block;
+}
+
+.small-screen{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .large-screen {
+      display: none;
+    }
+    .small-screen {
+        display: block;
+    }
+  }
