@@ -114,6 +114,7 @@ a:hover{
     max-width: 640px;
     margin: auto;
     padding: 0 10%;
+    margin-top: 80px;
 }
 .info p{
     line-height: 30px;
@@ -310,5 +311,15 @@ a:hover{
     }
     .small-screen {
         display: block;
+    }
+    .navitems{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divider{
+        padding-top: 40px;
+    }
+    .info{
+        margin-top: 20px;
     }
   }
