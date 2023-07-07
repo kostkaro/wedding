@@ -37,7 +37,7 @@ h4{
 
 .inter {
     font-family: 'Inter'!important;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -54,7 +54,7 @@ h4{
 
 p {
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -66,7 +66,7 @@ a {
     text-decoration: none;
     color:#262626;
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 a:hover{
     color:brown;
@@ -119,7 +119,7 @@ a:hover{
 .info p{
     line-height: 30px;
     color: #202D52;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Puremalone';
 }
 
@@ -133,13 +133,13 @@ a:hover{
 .info a{
     text-decoration: underline;
     color: #D2A8E5;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contact a{
     text-decoration: underline;
     color: #D2A8E5;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contact a:hover{
@@ -191,12 +191,7 @@ a:hover{
     width: 300px;
     margin: 0 50px;
 }
-.hotels-intro img{
-    margin-bottom:20px;
-}
-.hotels-intro h2{
-    font-size:30px;
-}
+
 
 .flex {
     display: flex;
@@ -205,46 +200,6 @@ a:hover{
     flex-wrap: wrap;
 }
 
-.shape1{
-    position: absolute;
-    left: 0;
-    top: 1500px;
-    z-index: -1;
-}
-.shape2{
-    position: absolute;
-    right: 100px;
-    top: 2630px;
-    z-index: -1;
-}
-.shape3{
-    position: absolute;
-    left: 100px;
-    top: 3000px;
-    z-index: -1;
-}
-
-.button {
-    padding: 10px 30px;
-    background-color: #202D52;
-    color: white;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-size: 19px;
-    line-height: 29px;
-    text-align: center;
-}
-.button:hover{
-    color: white;
-    opacity: 0.7;
-}
-.hotels-section{
-    width: 350px;
-    margin: 50px;
-}
-.hotel-container{
-    margin-top: 100px;
-}
 
 .faq{
     max-width: 640px;
@@ -254,7 +209,7 @@ a:hover{
 /***********NAVIGATION***********/
 
 .navigation{
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 100%;
     display: flex;
@@ -263,7 +218,9 @@ a:hover{
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
+    background-color: rgba(241,239,234,0.2);
+    backdrop-filter: blur(5px);
     
 }
 .navtitle{
@@ -278,8 +235,7 @@ a:hover{
     margin-right: 20px;
 }
 .navlinks .active a{
-    color:#D2A8E5;
-    opacity: 0.5;
+    text-decoration: underline;
 }
 .navitems{
     padding-left: 20px;
@@ -289,9 +245,10 @@ a:hover{
     text-decoration: none;
     color:#262626;
     transition: all ease 0.25s;
+    font-size: 12px;
 }
 .navlinks a:hover{
-    color:#ed58d0;
+    text-decoration: underline;
     opacity: 0.5;
     transition: all ease 0.25s;
 }
@@ -320,9 +277,5 @@ a:hover{
     }
     .info{
         margin-top: 20px;
-    }
-    .navigation{
-        background-color: rgba(242, 239, 234, 0.3);
-        
     }
   }
